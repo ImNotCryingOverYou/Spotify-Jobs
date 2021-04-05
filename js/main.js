@@ -54,11 +54,11 @@ window.onload = function () {
 
     function setTranslateInterval() {
         intervalId = setInterval(function () {
-            translateCount1--
-            translateCount2--;
+            translateCount1 -= 0.3;
+            translateCount2 -= 0.3;
 
-            floatDiv.style.transform = 'translateY(' + translateCount1 * 0.3 + 'px)';
-            floatDiv2.style.transform = 'translateY(' + translateCount2 * 0.3 + 'px)';
+            floatDiv.style.transform = 'translateY(' + translateCount1 + 'px)';
+            floatDiv2.style.transform = 'translateY(' + translateCount2 + 'px)';
             if ((translateCount1 * - 1) > (floatDiv.offsetHeight)) {
                 translateCount1 = floatDiv2.offsetHeight;
             };
