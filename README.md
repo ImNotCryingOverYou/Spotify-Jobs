@@ -3,5 +3,5 @@
 
 Сверстанная страница Spotify Jobs
 
-**[Spotify Jobs](https://imnotcryingoveryou.github.io/Spotify-Jobs/)**
+**[Spotify Jobs](https://palladiumv.github.io/Spotify-Jobs/)**
 
